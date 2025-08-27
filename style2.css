@@ -1,6 +1,8 @@
 
+html, body { margin: 0; padding: 0; font-family: 'Inter', system-ui, -apple-system, sans-serif; }
 
-/* Import your custom CSS */
+/* Custom styles from src/components/index.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
@@ -26,13 +28,6 @@
   --radius: 0.75rem;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    scroll-behavior: smooth;
-}
-
 * {
   border-color: hsl(var(--border));
 }
@@ -42,6 +37,10 @@ body {
   background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #533483 100%);
   color: hsl(var(--foreground));
   min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .gradient-text {
@@ -62,11 +61,6 @@ body {
   height: 8px;
   border-radius: 4px;
   transition: width 1s ease-in-out;
-  animation: fillBar 2s ease-out;
-}
-
-@keyframes fillBar {
-    from { width: 0%; }
 }
 
 .floating-animation {
@@ -100,55 +94,3 @@ body {
   backdrop-filter: blur(20px);
   background: rgba(15, 15, 35, 0.8);
 }
-
-.mobile-menu {
-    display: none;
-}
-
-.mobile-menu.active {
-    display: block;
-}
-
-/* Additional styles for form and interactions */
-input, textarea {
-    transition: all 0.3s ease;
-}
-
-input:focus, textarea:focus {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.2);
-}
-
-button {
-    transition: all 0.3s ease;
-}
-
-button:hover {
-    transform: translateY(-2px);
-}
-
-.nav-link {
-    position: relative;
-    transition: all 0.3s ease;
-}
-
-.nav-link:hover {
-    transform: translateY(-2px);
-}
-
-.nav-link::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -5px;
-    left: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    transition: all 0.3s ease;
-    transform: translateX(-50%);
-}
-
-.nav-link:hover::after {
-    width: 100%;
-}
-
