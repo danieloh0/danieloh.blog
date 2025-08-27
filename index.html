@@ -411,26 +411,18 @@
                     <div class="glass-effect p-8 rounded-lg">
                         <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                             <div>
-                                <h3 class="text-2xl font-bold text-blue-400">Senior Full Stack Developer</h3>
-                                <p class="text-xl text-gray-300">Tech Solutions Inc.</p>
+                                <h3 class="text-2xl font-bold text-blue-400">Associate</h3>
+                                <p class="text-xl text-gray-300">Howden Re</p>
                             </div>
-                            <span class="text-purple-400 font-semibold">2023 - Present</span>
+                            <span class="text-purple-400 font-semibold">2025 - Present</span>
                         </div>
-                        <p class="text-gray-300 mb-4">Led development of enterprise-level web applications and mentored junior developers while implementing modern development practices and cloud solutions.</p>
+                        <p class="text-gray-300 mb-4">Providing reinsurance solutions to major insurance companies in need of risk capital allocation.</p>
                         <div class="space-y-2">
                             <h4 class="font-semibold text-white">Key Achievements:</h4>
                             <ul class="space-y-1">
                                 <li class="text-gray-300 flex items-center">
                                     <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                                    Increased application performance by 40% through optimization
-                                </li>
-                                <li class="text-gray-300 flex items-center">
-                                    <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                                    Led a team of 5 developers on multiple projects
-                                </li>
-                                <li class="text-gray-300 flex items-center">
-                                    <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                                    Implemented CI/CD pipelines reducing deployment time by 60%
+                                    Provided data analysis and modeling solutions to clients.
                                 </li>
                             </ul>
                         </div>
@@ -439,26 +431,22 @@
                     <div class="glass-effect p-8 rounded-lg">
                         <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                             <div>
-                                <h3 class="text-2xl font-bold text-blue-400">Full Stack Developer</h3>
-                                <p class="text-xl text-gray-300">Digital Agency Pro</p>
+                                <h3 class="text-2xl font-bold text-blue-400">PricewaterhouseCoopers</h3>
+                                <p class="text-xl text-gray-300"></p>
                             </div>
-                            <span class="text-purple-400 font-semibold">2022 - 2023</span>
+                            <span class="text-purple-400 font-semibold">2022 - 2022</span>
                         </div>
-                        <p class="text-gray-300 mb-4">Developed responsive web applications and collaborated with design teams to create exceptional user experiences for various clients across different industries.</p>
+                        <p class="text-gray-300 mb-4">Developed advanced data algorithms to create exceptional modeling software for a high profile client on measuring manufacturing efficiency.</p>
                         <div class="space-y-2">
                             <h4 class="font-semibold text-white">Key Achievements:</h4>
                             <ul class="space-y-1">
                                 <li class="text-gray-300 flex items-center">
                                     <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                                    Delivered 15+ client projects on time and within budget
+                                    Delivered 10+ data Alteryx data algorithms.
                                 </li>
                                 <li class="text-gray-300 flex items-center">
                                     <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                                    Improved client satisfaction scores by 25%
-                                </li>
-                                <li class="text-gray-300 flex items-center">
-                                    <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                                    Mentored 2 junior developers in modern web technologies
+                                    Improved client employee satisfaction scores by 50%
                                 </li>
                             </ul>
                         </div>
@@ -472,14 +460,619 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
                     <h2 class="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h2>
-                    <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
+                    <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Have a project in mind or just want to chat about technology? I'd love to hear from you. 
+                        Let's create something amazing together.
+                    </p>
                 </div>
                 
-                <div class="max-w-2xl mx-auto">
-                    <form class="glass-effect p-8 rounded-lg" onsubmit="handleContactSubmit(event)">
-                        <div class="grid md:grid-cols-2 gap-6 mb-6">
-                            <div>
-                                <label for="name" class="block text-sm font-medium mb-2">Name</label>
-                                <input type="text" id="name" name="name" required 
-                                       class="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:border-blue-400 focus:outline-none
+                <div class="grid lg:grid-cols-2 gap-12 items-start">
+                    <!-- Contact Form -->
+                    <div class="order-2 lg:order-1">
+                        <div class="glass-effect p-8 rounded-2xl">
+                            <h3 class="text-2xl font-bold mb-6 gradient-text">Send a Message</h3>
+                            <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                                    <div class="form-group">
+                                        <label for="name" class="block text-sm font-medium mb-2 text-gray-300">
+                                            <i data-lucide="user" class="w-4 h-4 inline mr-2"></i>Full Name
+                                        </label>
+                                        <input type="text" id="name" name="name" required 
+                                               placeholder="John Doe"
+                                               class="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:border-blue-400 focus:outline-none text-white placeholder-gray-400 transition-all">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="block text-sm font-medium mb-2 text-gray-300">
+                                            <i data-lucide="mail" class="w-4 h-4 inline mr-2"></i>Email Address
+                                        </label>
+                                        <input type="email" id="email" name="email" required 
+                                               placeholder="john@example.com"
+                                               class="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:border-blue-400 focus:outline-none text-white placeholder-gray-400 transition-all">
+                                    </div>
+                                </div>
+                                <div class="mb-6">
+                                    <label for="subject" class="block text-sm font-medium mb-2 text-gray-300">
+                                        <i data-lucide="tag" class="w-4 h-4 inline mr-2"></i>Subject
+                                    </label>
+                                    <select id="subject" name="subject" required 
+                                            class="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:border-blue-400 focus:outline-none text-white transition-all">
+                                        <option value="" disabled selected class="text-gray-400">Choose a topic...</option>
+                                        <option value="web-development" class="text-white bg-gray-800">Web Development Project</option>
+                                        <option value="consultation" class="text-white bg-gray-800">Consultation</option>
+                                        <option value="collaboration" class="text-white bg-gray-800">Collaboration Opportunity</option>
+                                        <option value="job-opportunity" class="text-white bg-gray-800">Job Opportunity</option>
+                                        <option value="general" class="text-white bg-gray-800">General Inquiry</option>
+                                        <option value="other" class="text-white bg-gray-800">Other</option>
+                                    </select>
+                                </div>
+                                <div class="mb-6">
+                                    <label for="message" class="block text-sm font-medium mb-2 text-gray-300">
+                                        <i data-lucide="message-square" class="w-4 h-4 inline mr-2"></i>Message
+                                    </label>
+                                    <textarea id="message" name="message" rows="5" required 
+                                              placeholder="Tell me about your project or inquiry..."
+                                              class="w-full px-4 py-3 bg-black/50 border border-white/20 rounded-lg focus:border-blue-400 focus:outline-none text-white placeholder-gray-400 resize-none transition-all"></textarea>
+                                    <div class="text-right text-sm text-gray-400 mt-1">
+                                        <span id="charCount">0</span>/500 characters
+                                    </div>
+                                </div>
+                                <div class="mb-6">
+                                    <label class="flex items-center text-sm text-gray-300">
+                                        <input type="checkbox" id="newsletter" name="newsletter" 
+                                               class="mr-3 w-4 h-4 text-blue-600 bg-black/50 border-white/20 rounded focus:ring-blue-500 focus:ring-2">
+                                        <span>I'd like to receive updates about your latest projects and blog posts</span>
+                                    </label>
+                                </div>
+                                <button type="submit" id="submitBtn"
+                                        class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all transform hover:scale-105 flex items-center justify-center">
+                                    <i data-lucide="send" class="w-5 h-5 mr-2"></i>
+                                    <span id="submitText">Send Message</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Info & Social -->
+                    <div class="order-1 lg:order-2 space-y-8">
+                        <!-- Contact Cards -->
+                        <div class="grid gap-6">
+                            <div class="glass-effect p-6 rounded-xl hover:scale-105 transition-transform">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mr-4">
+                                        <i data-lucide="mail" class="w-6 h-6 text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-white">Email Me</h4>
+                                        <p class="text-gray-400 text-sm">Get in touch directly</p>
+                                    </div>
+                                </div>
+                                <a href="mailto:daniel@example.com" class="text-blue-400 hover:text-blue-300 transition-colors">
+                                    daniel@example.com
+                                </a>
+                            </div>
+                            
+                            <div class="glass-effect p-6 rounded-xl hover:scale-105 transition-transform">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg flex items-center justify-center mr-4">
+                                        <i data-lucide="phone" class="w-6 h-6 text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-white">Call Me</h4>
+                                        <p class="text-gray-400 text-sm">Mon-Fri 9AM-6PM EST</p>
+                                    </div>
+                                </div>
+                                <a href="tel:+1234567890" class="text-blue-400 hover:text-blue-300 transition-colors">
+                                    +1 (234) 567-8900
+                                </a>
+                            </div>
+                            
+                            <div class="glass-effect p-6 rounded-xl hover:scale-105 transition-transform">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mr-4">
+                                        <i data-lucide="map-pin" class="w-6 h-6 text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-white">Location</h4>
+                                        <p class="text-gray-400 text-sm">Available remotely</p>
+                                    </div>
+                                </div>
+                                <span class="text-blue-400">New York, NY</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Social Links -->
+                        <div class="glass-effect p-8 rounded-xl">
+                            <h4 class="font-semibold text-white mb-6 text-center">Connect With Me</h4>
+                            <div class="flex justify-center space-x-4">
+                                <a href="https://linkedin.com/in/danieloh" target="_blank" 
+                                   class="w-12 h-12 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-all transform hover:scale-110">
+                                    <i data-lucide="linkedin" class="w-6 h-6 text-white"></i>
+                                </a>
+                                <a href="https://github.com/danieloh" target="_blank" 
+                                   class="w-12 h-12 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-all transform hover:scale-110">
+                                    <i data-lucide="github" class="w-6 h-6 text-white"></i>
+                                </a>
+                                <a href="https://twitter.com/danieloh" target="_blank" 
+                                   class="w-12 h-12 bg-blue-500 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all transform hover:scale-110">
+                                    <i data-lucide="twitter" class="w-6 h-6 text-white"></i>
+                                </a>
+                                <a href="https://instagram.com/danieloh" target="_blank" 
+                                   class="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-lg flex items-center justify-center transition-all transform hover:scale-110">
+                                    <i data-lucide="instagram" class="w-6 h-6 text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Quick Info -->
+                        <div class="glass-effect p-6 rounded-xl">
+                            <h4 class="font-semibold text-white mb-4 flex items-center">
+                                <i data-lucide="clock" class="w-5 h-5 mr-2 text-blue-400"></i>
+                                Response Time
+                            </h4>
+                            <div class="space-y-3 text-sm">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-400">Email:</span>
+                                    <span class="text-white">Within 24 hours</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-400">Phone:</span>
+                                    <span class="text-white">Same day</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-400">Projects:</span>
+                                    <span class="text-green-400">Available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Success Message -->
+                <div id="successMessage" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center z-50">
+                    <div class="glass-effect p-8 rounded-2xl max-w-md mx-4 text-center">
+                        <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="check" class="w-8 h-8 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Message Sent!</h3>
+                        <p class="text-gray-300 mb-4">Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                        <button onclick="closeSuccessMessage()" 
+                                class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-2 rounded-lg transition-all">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Footer -->
+        <footer class="bg-black/40 py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="md:col-span-2">
+                        <h3 class="text-2xl font-bold gradient-text mb-4">Daniel Oh</h3>
+                        <p class="text-gray-400 mb-4 max-w-md">
+                            Full-stack developer passionate about creating exceptional digital experiences with clean code and innovative design.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://linkedin.com/in/danieloh" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                                <i data-lucide="linkedin" class="w-5 h-5"></i>
+                            </a>
+                            <a href="https://github.com/danieloh" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                                <i data-lucide="github" class="w-5 h-5"></i>
+                            </a>
+                            <a href="https://twitter.com/danieloh" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                                <i data-lucide="twitter" class="w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="text-gray-400 hover:text-blue-400 transition-colors">Home</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-blue-400 transition-colors">About</a></li>
+                            <li><a href="#portfolio" class="text-gray-400 hover:text-blue-400 transition-colors">Portfolio</a></li>
+                            <li><a href="#contact" class="text-gray-400 hover:text-blue-400 transition-colors">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-4">Services</h4>
+                        <ul class="space-y-2">
+                            <li class="text-gray-400">Web Development</li>
+                            <li class="text-gray-400">UI/UX Design</li>
+                            <li class="text-gray-400">Consulting</li>
+                            <li class="text-gray-400">Risk Advisory</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-t border-white/10 mt-8 pt-8 text-center">
+                    <p class="text-gray-400">
+                        &copy; 2025 Daniel Oh. All rights reserved. Built with passion and lots of coffee ☕
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+
+        // Smooth scrolling for navigation links
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Handle portfolio view
+        function viewProject(projectId) {
+            // In a real application, this would open project details
+            alert(`Opening ${projectId} details. In a real app, this would show project details or redirect to project page.`);
+        }
+
+        // Handle resume download
+        function downloadResume() {
+            // In a real application, this would download the actual resume file
+            alert('Resume download would start here. Please add your actual resume file.');
+        }
+
+        // Character counter for message textarea
+        function updateCharCount() {
+            const messageField = document.getElementById('message');
+            const charCount = document.getElementById('charCount');
+            
+            if (messageField && charCount) {
+                const currentLength = messageField.value.length;
+                const maxLength = 500;
+                
+                charCount.textContent = currentLength;
+                
+                if (currentLength > maxLength * 0.9) {
+                    charCount.style.color = '#ef4444'; // red
+                } else if (currentLength > maxLength * 0.7) {
+                    charCount.style.color = '#f59e0b'; // yellow
+                } else {
+                    charCount.style.color = '#6b7280'; // gray
+                }
+                
+                // Limit the input
+                if (currentLength > maxLength) {
+                    messageField.value = messageField.value.substring(0, maxLength);
+                    charCount.textContent = maxLength;
+                }
+            }
+        }
+
+        // Handle contact form submission
+        function handleContactSubmit(event) {
+            event.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const submitText = document.getElementById('submitText');
+            const form = event.target;
+            
+            // Show loading state
+            submitBtn.disabled = true;
+            submitText.textContent = 'Sending...';
+            submitBtn.classList.add('opacity-75');
+            
+            // Simulate API call (replace with actual endpoint)
+            setTimeout(() => {
+                const formData = new FormData(form);
+                const contactData = {
+                    name: formData.get('name'),
+                    email: formData.get('email'),
+                    subject: formData.get('subject'),
+                    message: formData.get('message'),
+                    newsletter: formData.get('newsletter') === 'on',
+                    timestamp: new Date().toISOString()
+                };
+                
+                // In a real application, send this data to your backend
+                console.log('Contact form submitted:', contactData);
+                
+                // Show success message
+                showSuccessMessage();
+                
+                // Reset form
+                form.reset();
+                updateCharCount();
+                
+                // Reset button state
+                submitBtn.disabled = false;
+                submitText.textContent = 'Send Message';
+                submitBtn.classList.remove('opacity-75');
+                
+            }, 2000); // Simulate 2 second API call
+        }
+
+        // Show success message
+        function showSuccessMessage() {
+            const successMessage = document.getElementById('successMessage');
+            successMessage.classList.remove('hidden');
+            
+            // Auto-hide after 5 seconds
+            setTimeout(() => {
+                closeSuccessMessage();
+            }, 5000);
+        }
+
+        // Close success message
+        function closeSuccessMessage() {
+            const successMessage = document.getElementById('successMessage');
+            successMessage.classList.add('hidden');
+        }
+
+        // Form validation
+        function validateForm() {
+            const form = document.getElementById('contactForm');
+            const inputs = form.querySelectorAll('input[required], textarea[required], select[required]');
+            let isValid = true;
+            
+            inputs.forEach(input => {
+                const formGroup = input.closest('.form-group') || input.parentElement;
+                const existingError = formGroup.querySelector('.error-message');
+                
+                // Remove existing error messages
+                if (existingError) {
+                    existingError.remove();
+                }
+                
+                // Validate input
+                if (!input.value.trim()) {
+                    isValid = false;
+                    showFieldError(input, 'This field is required');
+                } else if (input.type === 'email' && !isValidEmail(input.value)) {
+                    isValid = false;
+                    showFieldError(input, 'Please enter a valid email address');
+                }
+            });
+            
+            return isValid;
+        }
+
+        // Show field error
+        function showFieldError(input, message) {
+            const formGroup = input.closest('.form-group') || input.parentElement;
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error-message text-red-400 text-sm mt-1';
+            errorDiv.textContent = message;
+            formGroup.appendChild(errorDiv);
+            
+            input.classList.add('border-red-400');
+            
+            // Remove error on input
+            input.addEventListener('input', function() {
+                input.classList.remove('border-red-400');
+                const errorMessage = formGroup.querySelector('.error-message');
+                if (errorMessage) {
+                    errorMessage.remove();
+                }
+            }, { once: true });
+        }
+
+        // Email validation
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize Lucide icons
+            if (typeof lucide !== 'undefined' && lucide.createIcons) {
+                lucide.createIcons();
+            }
+
+            // Add character counter to message field
+            const messageField = document.getElementById('message');
+            if (messageField) {
+                messageField.addEventListener('input', updateCharCount);
+                updateCharCount(); // Initialize count
+            }
+
+            // Add form validation
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    if (validateForm()) {
+                        handleContactSubmit(e);
+                    }
+                });
+            }
+
+            // Add scroll effect to navigation
+            const nav = document.querySelector('nav');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100) {
+                    nav.style.background = 'rgba(15, 15, 35, 0.95)';
+                    nav.style.borderBottom = '1px solid rgba(255, 255, 255, 0.2)';
+                } else {
+                    nav.style.background = 'rgba(15, 15, 35, 0.8)';
+                    nav.style.borderBottom = '1px solid rgba(255, 255, 255, 0.1)';
+                }
+            });
+
+            // Animate skill bars when they come into view
+            const observerOptions = {
+                threshold: 0.5,
+                rootMargin: '0px 0px -100px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const skillBars = entry.target.querySelectorAll('.skill-bar');
+                        skillBars.forEach(bar => {
+                            const width = bar.style.width;
+                            bar.style.width = '0%';
+                            setTimeout(() => {
+                                bar.style.width = width;
+                            }, 200);
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            const skillsSection = document.getElementById('skills');
+            if (skillsSection) {
+                observer.observe(skillsSection);
+            }
+
+            // Close success message when clicking outside
+            const successMessage = document.getElementById('successMessage');
+            if (successMessage) {
+                successMessage.addEventListener('click', function(e) {
+                    if (e.target === successMessage) {
+                        closeSuccessMessage();
+                    }
+                });
+            }
+
+            // Add smooth animations to contact cards
+            const contactCards = document.querySelectorAll('.glass-effect');
+            contactCards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.1}s`;
+            });
+        });
+
+        // Add smooth scroll behavior for all navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobileMenu');
+                    if (mobileMenu) {
+                        mobileMenu.classList.remove('active');
+                    }
+                    
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add typing effect for the hero section (optional enhancement)
+        function typeWriter(element, text, speed = 100) {
+            let i = 0;
+            element.innerHTML = '';
+            
+            function type() {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            
+            type();
+        }
+
+        // Add some interactive elements
+        window.addEventListener('mousemove', function(e) {
+            const cursor = document.querySelector('.cursor');
+            if (cursor) {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            }
+        });
+
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Press 'C' to scroll to contact
+            if (e.key.toLowerCase() === 'c' && !e.ctrlKey && !e.altKey && !e.target.matches('input, textarea')) {
+                scrollToSection('contact');
+            }
+            
+            // Press 'Escape' to close success message
+            if (e.key === 'Escape') {
+                closeSuccessMessage();
+            }
+        });
+    </script>. Please add your actual resume file.');
+        }
+
+        // Handle contact form submission
+        function handleContactSubmit(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            // In a real application, you would send this data to your backend
+            console.log('Form submitted:', { name, email, subject, message });
+            alert('Thank you for your message! I\'ll get back to you soon.');
+            
+            // Reset form
+            event.target.reset();
+        }
+
+        // Initialize Lucide icons when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof lucide !== 'undefined' && lucide.createIcons) {
+                lucide.createIcons();
+            }
+
+            // Add scroll effect to navigation
+            const nav = document.querySelector('nav');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100) {
+                    nav.style.background = 'rgba(15, 15, 35, 0.95)';
+                } else {
+                    nav.style.background = 'rgba(15, 15, 35, 0.8)';
+                }
+            });
+
+            // Animate skill bars when they come into view
+            const observerOptions = {
+                threshold: 0.5,
+                rootMargin: '0px 0px -100px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const skillBars = entry.target.querySelectorAll('.skill-bar');
+                        skillBars.forEach(bar => {
+                            const width = bar.style.width;
+                            bar.style.width = '0%';
+                            setTimeout(() => {
+                                bar.style.width = width;
+                            }, 200);
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            const skillsSection = document.getElementById('skills');
+            if (skillsSection) {
+                observer.observe(skillsSection);
+            }
+        });
+
+        // Add smooth scroll behavior for all navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
